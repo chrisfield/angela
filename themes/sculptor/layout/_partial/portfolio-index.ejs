@@ -1,0 +1,9 @@
+<div class="blog">
+<% posts.forEach(function(item){ %>
+	<a class="blog__link" href="<%- config.root %><%- item.path %>">
+	    <%- item.title || theme.default_post_title || "Untitled" %>
+	</a>
+<% }) %>
+</div>
+
+

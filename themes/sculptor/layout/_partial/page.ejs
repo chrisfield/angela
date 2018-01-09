@@ -1,0 +1,17 @@
+<article class="article">
+    <% if (page.featureImage) { %>
+      <div class="feature-image">
+        <img class="feature-image__img" src="/images/<%- page.featureImage %>"/>
+        <div class="feature-image__text">
+          <%- post.content %>
+        </div>
+      </div>
+    <% } else if (page.photos) { %>
+		  <%- partial('_partial/photos', {photos: page.photos}) %>
+		  <%- post.content %>
+    <% } else { %>
+ 		  <%- post.content %>
+    <% }%>
+
+</article>
+

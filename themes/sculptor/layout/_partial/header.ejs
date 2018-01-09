@@ -1,0 +1,18 @@
+<nav class="nav">
+    <div class="nav__title">
+      <a class="nav__title-link" href="/">Angela Sidwell</a>
+    </div>
+    <ul>
+		<% for (var i in config.menu){ %>
+			<li>
+				<%
+				    let className = '';
+					if (config.menu[i] + '/index.html' === '/' + path) {
+						className = 'nav__link--active';
+					}
+				%>
+				<a class="nav__link <%- className %>" href="<%- url_for(config.menu[i]) %>"><%= i %></a>
+			</li>
+		<% } %>    	 
+    </ul>
+</nav>

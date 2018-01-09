@@ -1,0 +1,112 @@
+@import "nib"
+@import "_variables"
+
+global-reset()
+
+@import "_extend"
+
+
+body
+  font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif
+  color: #111
+  background-color: color-background
+
+.nav
+  padding-left: 15px
+
+.nav__title
+  display: block
+
+.nav__title-link
+  font-family: 'Fredericka the Great', cursive
+  font-size: 26px
+  font-weight: 300
+  line-height: 56px
+  letter-spacing: -1px
+  margin-bottom: 0
+  color: #424242
+
+.nav__link
+  text-decoration: none
+
+.nav__link--active
+  text-decoration: underline
+
+
+.article
+  margin-bottom: 1em
+
+@media mq-tablet
+  .article
+    margin-left: 5%
+    margin-right: 5%
+
+@media mq-desktop
+  .article
+    margin-left: 5%
+    margin-right: 5%  
+
+.footer
+  text-align: center
+  background-color: color-warm-grey
+
+.contact-list
+  display: inline-block
+  text-align: left
+
+// feature-image
+.feature-image
+  white-space: no-wrap
+
+.feature-image__img
+  max-width: 100%
+
+.feature-image__text
+  white-space: normal;
+
+@media mq-desktop
+  .feature-image__img
+    max-width: 60%
+  .feature-image__text
+    display: inline-block;
+    width: 40%
+
+
+// gallery
+.gallery
+  white-space: no-wrap
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-around
+
+.gallery__item
+  box-sizing: border-box
+  padding: 1em
+  margin: 0
+  width: 100%
+
+.gallery__item-img
+  max-width: 100%
+
+
+.gallery__item-caption
+  white-space: normal
+
+@media mq-tablet
+  .gallery__item
+    width: 50%
+
+@media mq-desktop
+  .gallery__item
+    width: 33.33%
+
+
+// blog
+.blog
+  margin 1em
+  padding 1em
+  border 1px solid #ddd
+
+
+@import "_extend"
+@import "_partial/article"

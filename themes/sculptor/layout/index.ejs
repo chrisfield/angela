@@ -1,0 +1,5 @@
+<%- partial('_partial/page', {post: page, index: false}) %>
+
+<% if (page.posts) {  %>
+    <%- partial('_partial/portfolio-index', {posts: page.posts}) %>
+<% } %>
