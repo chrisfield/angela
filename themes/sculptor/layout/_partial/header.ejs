@@ -1,6 +1,6 @@
 <nav class="nav">
     <div class="nav__title">
-      <a class="nav__title-link" href="/">Angela Sidwell</a>
+      <a class="nav__title-link <%- path === 'index.html'?'nav__title-link--active':'' %>" href="/">Angela Sidwell</a>
     </div>
     <ul>
 		<% for (var i in config.menu){ %>
