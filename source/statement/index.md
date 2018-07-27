@@ -1,3 +1,3 @@
 title: Statement
 ---
-This is the statement
+This is the statement.
