@@ -1,7 +1,5 @@
 title: Gallery
 photos:
-  - name: Bsrn Owl
-    file: /images/barn-owl.jpg
   - name: Crossing Point - detail
     file: /images/crossing-point-detail.jpg
   - name: Crossing Point
@@ -20,4 +18,6 @@ photos:
     file: /images/habitation3.jpg
   - name: Habitation 4
     file: /images/habitation4.jpg
+  - name: Barn Owl
+    file: /images/barn-owl.jpg
 ---
