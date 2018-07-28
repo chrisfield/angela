@@ -1,27 +1,23 @@
 title: Gallery
 photos:
-  - name: Hare head, hardened textile
-    file: /images/9614616787.jpg  
-  - name: Giraffe
-    file: /images/26447489233.jpg
-  - name: Soldier
-    file: /images/26452241244.jpg
-  - name: Shrowd
-    file: /images/26452336454.jpg
-  - name: Sight Hounds
-    file: /images/26783832550.jpg
-  - name: Bear Captive
-    file: /images/26963397652.jpg
-  - name: Girl and cat
-    file: /images/27024665536.jpg
-  - name: The Days End
-    file: /images/26445577644.jpg
-  - name: Bulls Head
-    file: /images/26447485373.jpg
-  - name: Flesh and blood
-    file: /images/26454321823.jpg
-  - name: Hare head, textile
-    file: /images/9614542963.jpg    
-  - name: orangutan
-    file: /images/26454485643.jpg    
+  - name: Bsrn Owl
+    file: /images/barn-owl.jpg
+  - name: Crossing Point - detail
+    file: /images/crossing-point-detail.jpg
+  - name: Crossing Point
+    file: /images/crossing-point.JPG
+  - name: Fox track
+    file: /images/fox-track.jpg
+  - name: Fox
+    file: /images/fox.jpg
+  - name: Ghost 
+    file: /images/ghost.jpg
+  - name: Habitation 1
+    file: /images/habitation.jpg
+  - name: Habitation 2
+    file: /images/habitation2.JPG
+  - name: Habitation 3
+    file: /images/habitation3.jpg
+  - name: Habitation 4
+    file: /images/habitation4.jpg
 ---
