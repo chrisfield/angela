@@ -245,9 +245,6 @@ body {
   height: 16px;
   width: 16px;
 }
-.feature-image {
-  white-space: nowrap;
-}
 .feature-image__img {
   max-width: 100%;
 }
@@ -264,7 +261,6 @@ body {
   }
 }
 .gallery {
-  white-space: nowrap;
   display: -webkit-box;
   display: -moz-box;
   display: -webkit-flex;
