@@ -141,7 +141,8 @@ a img {
 .article ul,
 .article ol,
 .article dl {
-  margin: 0 20px;
+  margin: 0;
+  line-height: 20px;
 }
 .article ul ul,
 .article ol ul,
@@ -248,9 +249,6 @@ body {
 .feature-image__img {
   max-width: 100%;
 }
-.feature-image__text {
-  white-space: normal;
-}
 @media screen and (min-width: 768px) {
   .feature-image__img {
     max-width: 60%;
@@ -291,9 +289,6 @@ body {
 .gallery__item-img {
   max-width: 100%;
   max-height: 90vh;
-}
-.gallery__item-caption {
-  white-space: normal;
 }
 .blog {
   margin: 1em;
