@@ -223,8 +223,6 @@ body {
   padding-bottom: 5px;
 }
 .contact-list {
-  display: inline-block;
-  text-align: left;
   display: -webkit-box;
   display: -moz-box;
   display: -webkit-flex;
