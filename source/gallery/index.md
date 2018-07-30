@@ -1,3 +1,4 @@
+description: Ceramic Sculptor
 title: Gallery
 photos:
   - name: Crossing Point - detail
